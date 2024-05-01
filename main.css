@@ -41,21 +41,21 @@
 
     .colunamel{
         background-color: #174b32;
-        padding: 20px;
-        margin-left: 50px;
+        padding: 40px;
+        margin-left: 90px;
         color: white;
         border: 6px solid var(--verdeclaro);
     }
     .colunaazeite{
         background-color: #174b32;
-        padding: 20px;
+        padding: 40px;
         color: white;
         border: 6px solid var(--verdeclaro);
     }
     .colunavinagre{
         background-color: #174b32;
-        padding: 20px;
-        margin-right: 50px;
+        padding: 40px;
+        margin-right: 90px;
         color: white;
         border: 6px solid var(--verdeclaro);
     }
@@ -79,9 +79,9 @@
 
     .colunacha{
         background-color: #174b32;
-        padding: 20px;
+        padding: 40px;
         color: white;
-        margin-left: 50px;
+        margin-left: 90px;
         border: 6px solid var(--verdeclaro);
     }
     .colunavera{
@@ -94,7 +94,7 @@
         background-color: #174b32;
         padding: 40px;
         color: white;
-        margin-right: 50px;
+        margin-right: 90px;
         border: 6px solid var(--verdeclaro);
     }
 
@@ -106,7 +106,7 @@
     align-items: center;
     background-color: #80b276;
     color: white;
-    padding: 10px;
+    padding: 20px;
     
 }
 
@@ -123,6 +123,5 @@
         background-color: #80b276;
     }
 }
-
   
 
