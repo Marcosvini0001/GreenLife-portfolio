@@ -38,6 +38,10 @@
         width: 150px;
         padding-top: 8px;
     }
+    .imgoleopeixe{
+        width: 150px;
+        padding-top: 8px;
+    }
 
     .colunamel{
         background-color: #174b32;
@@ -54,7 +58,13 @@
     }
     .colunavinagre{
         background-color: #174b32;
-        padding: 40px;
+        padding: 60px;
+        color: white;
+        border: 6px solid var(--verdeclaro);
+    }
+    .colunaoleopeixe{
+        background-color: #174b32;
+        padding: 60px;
         margin-right: 90px;
         color: white;
         border: 6px solid var(--verdeclaro);
