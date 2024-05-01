@@ -1,0 +1,128 @@
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 16px;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    color: #80b276;
+    background-color: #174b32;
+    border: 2px solid #80b276;
+    margin-top: 40px;
+    margin: 20px 0 20px 0;
+}
+
+.primeiracoluna{
+    display: flex;
+    justify-content: space-between;
+
+
+    .imgmel{
+        width: 180px;
+        padding-top: 8px;
+     }
+    .imgazeite{
+        width: 220px;
+        padding-top: 8px;
+    }
+    .imgvinagre{
+        width: 150px;
+        padding-top: 8px;
+    }
+
+    .colunamel{
+        background-color: #174b32;
+        padding: 20px;
+        margin-left: 50px;
+        color: white;
+        border: 6px solid var(--verdeclaro);
+    }
+    .colunaazeite{
+        background-color: #174b32;
+        padding: 20px;
+        color: white;
+        border: 6px solid var(--verdeclaro);
+    }
+    .colunavinagre{
+        background-color: #174b32;
+        padding: 20px;
+        margin-right: 50px;
+        color: white;
+        border: 6px solid var(--verdeclaro);
+    }
+
+}
+
+.segundacoluna{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+    .imgcha{
+        width: 180px;
+    }
+    .imgvera{
+        width: 140px;
+    }
+    .imgquinoa{
+        width: 140px;
+    }
+
+    .colunacha{
+        background-color: #174b32;
+        padding: 20px;
+        color: white;
+        margin-left: 50px;
+        border: 6px solid var(--verdeclaro);
+    }
+    .colunavera{
+        background-color: #174b32;
+        padding: 40px;
+        color: white;
+        border: 6px solid var(--verdeclaro);
+    }
+    .colunaquinoa{
+        background-color: #174b32;
+        padding: 40px;
+        color: white;
+        margin-right: 50px;
+        border: 6px solid var(--verdeclaro);
+    }
+
+
+}
+
+.comprar{
+    display: flex;
+    align-items: center;
+    background-color: #80b276;
+    color: white;
+    padding: 10px;
+    
+}
+
+.contato{
+    background-color: #174b32;
+    margin-top: 150px;
+    padding: 20px;
+    border: 2px solid #80b276;
+    .textocontato{
+        color:#80b276;
+    }
+
+    .labeltexto{
+        background-color: #80b276;
+    }
+}
+
+  
+
