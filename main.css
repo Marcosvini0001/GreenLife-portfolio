@@ -25,7 +25,6 @@
     display: flex;
     justify-content: space-between;
 
-
     .imgmel{
         width: 180px;
         padding-top: 8px;
@@ -49,18 +48,21 @@
         margin-left: 90px;
         color: white;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
     .colunaazeite{
         background-color: #174b32;
         padding: 40px;
         color: white;
         border: 6px solid var(--verdeclaro);
-    }
+        border-radius: 10px;
+        }
     .colunavinagre{
         background-color: #174b32;
         padding: 60px;
         color: white;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
     .colunaoleopeixe{
         background-color: #174b32;
@@ -68,6 +70,7 @@
         margin-right: 90px;
         color: white;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
 
 }
@@ -86,6 +89,9 @@
     .imgquinoa{
         width: 140px;
     }
+    .imgoleococo{
+        width: 140px;
+    }
 
     .colunacha{
         background-color: #174b32;
@@ -93,19 +99,29 @@
         color: white;
         margin-left: 90px;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
     .colunavera{
         background-color: #174b32;
         padding: 40px;
         color: white;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
     .colunaquinoa{
         background-color: #174b32;
         padding: 40px;
         color: white;
+        border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
+    }
+    .colunaoleococo{
+        background-color: #174b32;
+        padding: 40px;
+        color: white;
         margin-right: 90px;
         border: 6px solid var(--verdeclaro);
+        border-radius: 10px;
     }
 
 
@@ -117,6 +133,7 @@
     background-color: #80b276;
     color: white;
     padding: 20px;
+    border-radius: 5px;
     
 }
 
