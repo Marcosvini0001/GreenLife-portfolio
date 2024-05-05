@@ -26,121 +26,30 @@
     margin: 20px 0 20px 0;
 }
 
-.primeiracoluna{
+.flex {
     display: flex;
-    justify-content: space-between;
-
-    .imgmel{
-        width: 180px;
-        padding-top: 8px;
-     }
-    .imgazeite{
-        width: 220px;
-        padding-top: 8px;
-    }
-    .imgvinagre{
-        width: 150px;
-        padding-top: 8px;
-    }
-    .imgoleopeixe{
-        width: 150px;
-        padding-top: 8px;
-    }
-
-    .colunamel{
-        background-color: #174b32;
-        padding: 40px;
-        margin-left: 90px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-    .colunaazeite{
-        background-color: #174b32;
-        padding: 40px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-        }
-    .colunavinagre{
-        background-color: #174b32;
-        padding: 60px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-    .colunaoleopeixe{
-        background-color: #174b32;
-        padding: 60px;
-        margin-right: 90px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-
-}
-
-.segundacoluna{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    
-    .imgcha{
-        width: 180px;
-    }
-    .imgvera{
-        width: 140px;
-    }
-    .imgquinoa{
-        width: 140px;
-    }
-    .imgoleococo{
-        width: 140px;
-    }
-
-    .colunacha{
-        background-color: #174b32;
-        padding: 40px;
-        color: white;
-        margin-left: 90px;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-    .colunavera{
-        background-color: #174b32;
-        padding: 40px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-    .colunaquinoa{
-        background-color: #174b32;
-        padding: 40px;
-        color: white;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-    .colunaoleococo{
-        background-color: #174b32;
-        padding: 40px;
-        color: white;
-        margin-right: 90px;
-        border: 6px solid var(--verdeclaro);
-        border-radius: 10px;
-    }
-
-
-}
-
-
-.comprar i{
-    display: flex;
-    align-items: center;
-    background-color: #80b276;
-    color: white;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex .flex-card {
+    width: 24%;
+    margin: 3px;
+    box-shadow: 0 0 10px #ccc;
     border-radius: 5px;
-}
+    text-align: center;
+    margin-bottom: 20px;
+    p{
+        width: 100%;
+        background-color: #ccc;
+        margin: 0;
+    }
+  }
+ 
+  .flex .flex-img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+
 
 .contato{
     background-color: #174b32;
