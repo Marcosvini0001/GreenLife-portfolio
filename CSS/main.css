@@ -4,14 +4,19 @@
     justify-content: center;
     gap: 32px;
     padding-top: 16px;
-    
     a {
         text-decoration: none;
         color: white;
+        background-color: var(--verdeclaro);
+        padding: 12px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px black;
     }
     a:hover{
-        transition: 0s;
-        color: #a1a1a1;
+        transition: 0.5s;
+        color: black;
+        background-color: transparent;
+        box-shadow: none;
     }
 
 }
@@ -19,7 +24,7 @@
 .produto{
     display: flex;
     justify-content: center;
-    color: #80b276;
+    color: #ffffff;
     background-color: #174b32;
     border: 2px solid #80b276;
     margin-top: 40px;
