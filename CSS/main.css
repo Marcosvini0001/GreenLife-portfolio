@@ -112,3 +112,20 @@
     height: 30px;
 }
 
+.carrinho{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    i{
+        color: #7a7a7a;
+    }
+}
+.carrinho:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

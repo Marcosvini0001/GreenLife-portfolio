@@ -4,10 +4,11 @@ header {
     padding: 25px;
 }
 
-.div-header{
+.div-header {
     display: flex;
     justify-content: space-between;
-    .btn-header{
+
+    .btn-header {
         padding: 30px;
     }
 }
@@ -48,4 +49,31 @@ input[type="text"] {
     background-color: var(--verdeescuro);
     box-shadow: 1px 1px 1px 1px var(--verdeclaro);
     transition: 0.5s;
+}
+
+.btn-header {
+    display: flex;
+    gap: 20px;
+
+    .btn-contato {
+        background-color: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn-carrinho {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-carrinho:hover,
+    .btn-contato:hover {
+        background-color: var(--verdeescuro);
+        box-shadow: 1px 1px 1px 1px var(--verdeclaro);
+        transition: 0.5s;
+    }
 }
