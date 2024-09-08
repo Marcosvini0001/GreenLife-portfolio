@@ -31,7 +31,7 @@
             </div>
 
             <div class="btn-header">
-                <button class="btn-contato" >Contato</button>
+                <button id="contatoBtn" class="btn-contato">Contato</button>
                 <button class="btn-carrinho">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
@@ -173,10 +173,25 @@
                     </button>
                 </div>
             </div>
-
-
         </div>
-        
+
+
+        <div id="modalContato" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Formulário de Contato</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
     </main>
 
 
